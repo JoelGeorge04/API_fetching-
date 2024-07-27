@@ -1,0 +1,78 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#226A71"
+    android:padding="30px"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FRIEND'S APP"
+        android:textColor="#F3ECEC"
+        android:gravity="center"
+        android:textSize="75px"
+        android:layout_margin="10px"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textColor="#F6F2F2"
+        android:layout_margin="10px"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:hint="Enter your Name" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Friend's Name"
+        android:textColor="#F6F2F2"
+        android:layout_margin="10px"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nam"
+        android:hint="Enter your Friend's Name" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nick Name"
+        android:textColor="#F6F1F1"
+        android:layout_margin="10px"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your Friend's Nickname"
+        android:id="@+id/nicknam" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Describe Your Friend"
+        android:textColor="#FAF7F7"
+        android:layout_margin="10px"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/desc"
+        android:hint="Describe about your Friend" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#EADBDD"
+        android:id="@+id/done"
+        android:textColor="#070909"
+        android:padding="20px"
+        android:text="Done"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#EADBDD"
+        android:id="@+id/view"
+        android:textColor="#070909"
+        android:padding="20px"
+        android:layout_margin="20px"
+        android:text="view friends app"/>
+
+</LinearLayout>
